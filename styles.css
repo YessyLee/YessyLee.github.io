@@ -611,11 +611,37 @@ textarea {
     }
 }
 
+/* STYLING FOR PORTFOLIO*/
 
+#portfolio {
+	background-color: #be85e3;
+	width:100vw;
+	height: 100vh;
+  }
+  
+.portfolio {
+	width: calc (100%/3 - 20px);
+	height:auto;
+	padding: 5%;
+	margin: 1%;
+	display: inline-block;
+	flex-wrap: wrap;
+  flex-direction:row;
+}
 
+/* .portfolio-text { */
+	/* width: 40%; */
+	/* height: 80%; */
+/* } */
 
+.portfolio img {
+	height: 90%;
+	width: 90%;
+	border-radius: 20%;
+	/* margin-left: 20%; */
+	/* margin-bottom: 2%; */
+}
 
-/* STYLING FOR PORTFOLIO & SERVICES PAGE */
 /* .card { */
   /* display: inline-block; */
   /* border: 2px solid #d9d7d7; */
@@ -631,7 +657,6 @@ textarea {
   /* align-items: stretch; */
 /* } */
 
-/* STYLING FOR PORTFOLIO and SERVICES */
 /* #columns { */
 	/* background-color: #ffffff; */
 	/* height: 32vh; */
