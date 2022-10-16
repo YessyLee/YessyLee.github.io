@@ -606,15 +606,16 @@ textarea {
     font-size: 2rem;
     padding-top: 10px;
   }
-  #portfolio {
-    height: 2000px;
+   #portfolio {
+    height:2000px;
     width: 100%;
+    background-color: #c8b4e1;
   }
   .portfolio {
     display:inline-block;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 95%;
+    width: 90%;
     margin: 10px;
     padding: 10px;
    }
@@ -677,7 +678,7 @@ textarea {
    }
    #portfolio {
     height: 800px;
-    width: 102.45%;
+    width: 100%;
   }
 }
 
