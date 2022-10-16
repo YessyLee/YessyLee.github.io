@@ -572,13 +572,13 @@ textarea {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
    h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
    }
    h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
    }
    .text-wrapper {
     width: 45%;
@@ -623,7 +623,7 @@ textarea {
     margin: 0;
   }
   #contact-me {
-    height: 2000px;
+    height: 1000px;
     width: 100%;
   }
   .contact-me {
@@ -645,13 +645,13 @@ textarea {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
    h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
    }
    h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
    }
    .text-wrapper {
     width: 40%;
