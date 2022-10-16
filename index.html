@@ -7,51 +7,63 @@
     />
     <title>Yessy Lee | Passionate in helping small businesses grow</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <header>
-        <img src="images/logo1.png" />
         <nav>
-            <a href="portfolio.html" class="selected">Portfolio</a>
-            <a href="">Services</a>
-            <a href="">About Me</a>
-            <a href="">Get in Touch</a>
+            <div class="navbar">
+              <div class="container nav-container">
+                  <input class="checkbox" type="checkbox" name="" id="" />
+                  <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                  </div>  
+                <div class="logo">
+                <a href="index.html"><h1 class="h1-nav">YESSYLEE</h1></a>
+                </div>
+                <div class="menu-items">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-me.html">About</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact-me.html">Contact</a></li>
+                </div>
+              </div>
+            </div>
+          </nav>
         </nav>
+      
     </header> 
     <main>
         <section id="hero">    	
-            <div id="header-text">
-            <h1>Passionate in helping small businesses grow through efficiency.</h1>
-            <p>Maximise your business growth with the right data web solutions.</p>
-            <button type="submit">Let's work together!</button>
-        </div>
-        <!-- <div class="hero"> -->
-            <!-- <img src="images/me.jpg"/> -->
-        <!-- </div> -->
+            <div class="content-wrapper">
+                <img src="images/hero2.jpeg"/>
+                <div class="text-wrapper">
+                <h1>Passionate in helping small businesses grow through efficiency.</h1>
+                <br>
+                <h2>Maximise your business growth with the right data web solutions.</h2>
+                <br>
+                <a href="contact-me.html" style="text-decoration:none"><h3 id="anchor-link">Let's work together!</h3></a>
+            </div>
         </section>
+    </main>
 
-        <section id="columns">
-        	<div class="column">
-                <img class="column-img" src="images/portfolio.jpg" />
-        	</div>
-
-            <div class="column">
-                <img class="column-img" src="images/services.jpg" />
-        	</div>
-
-            <div class="column">
-                <img class="column-img" src="images/about-me.jpg" />
-        	</div>
-
-            <div class="column">
-                <img class="column-img" src="images/contact-me.jpg" />
+    <footer>
+        <footer class="site-footer">
+            <ul class="social-icons">
+            <li><a class="github" href="https://github.com/YessyLee"><i class="fa fa-github"></i></a></li>
+            <li><a class="insta" href="https://www.instagram.com/yessy_lee1/"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/yessy-rayner-perth/"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+                
+            <div>
+                <p class="copyright-text">Copyright &#169 <script>document.write(new Date().getFullYear())</script> Yessy Lee. All rights reserved.
+                </p>
             </div>
 
-    	</section>
-    </main>
-    <footer>
-        &#169 <script>document.write(new Date().getFullYear())</script> Yessy Lee. All rights reserved.
-    </footer>
+      </footer>
 </body>
 </html>
 
